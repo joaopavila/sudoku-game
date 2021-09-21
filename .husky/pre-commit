@@ -2,6 +2,6 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run prepare
-# npx pretty-quick --staged --staged-only
+npx pretty-quick --staged --staged-only
 # npm run lint
 git add .
