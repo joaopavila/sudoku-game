@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { GridItemComponent } from '../grid-item/grid-item.component';
 import { GridComponent } from './grid.component';
 
 describe('GridComponent', () => {
@@ -8,7 +8,7 @@ describe('GridComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [GridComponent],
+      declarations: [GridComponent, GridItemComponent],
     }).compileComponents();
   });
 
