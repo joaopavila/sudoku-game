@@ -5,13 +5,15 @@
 
   .grid-item {
     border: 1px solid #344861;
+    display: flex;
     height: 264.66px;
+    flex-wrap: wrap;
     width: 266.66px;
 
     .grid-number {
       border: 1px solid #344861;
-      width: 88.8px;
       height: 86.8px;
+      width: 86.2px;
     }
   }
 }
